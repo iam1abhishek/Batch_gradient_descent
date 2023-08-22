@@ -20,3 +20,14 @@ x = data.data
 y = data.target
 </pre>
 The diabetes dataset is loaded, where **x** contains the feature data and **y** contains the target variable (diabetes progression).
+# Printing Data Shapes:
+<pre>
+print(x.shape)
+print(y.shape)
+</pre>
+This code snippet prints the shapes of the feature matrix **x** and the target array **y**.
+# Data Splitting:
+<pre>
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=2)
+</pre>
+
